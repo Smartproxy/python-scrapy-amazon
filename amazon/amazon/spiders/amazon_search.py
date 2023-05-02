@@ -22,9 +22,9 @@ class AmazonSearchSpider(scrapy.Spider):
         page = response.meta['page']
         keyword = response.meta['keyword']
 
-        ## Extract Overview Product Data
-        search_products = response.css("div.s-result-item[data-component-type=s-search-result]")
-        for product in search_products:
+        ## Extract Product Data
+        product_search = response.css("div.s-result-item[data-component-type=s-search-result]")
+        for product in product_search:
             relative_url = product.css("h2>a::attr(href)").get()
             asin = relative_url.split('/')[3] if len(relative_url.split('/')) >= 4 else None
             product_url = urljoin('https://www.amazon.com/', relative_url).split("?")[0]
@@ -57,5 +57,3 @@ class AmazonSearchSpider(scrapy.Spider):
 
 process = CrawlerProcess(get_project_settings())
 process.crawl(AmazonSearchSpider)
-process.start()
-
