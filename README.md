@@ -34,4 +34,4 @@ scrapy crawl amazon_search
 
 # Results
 
-Amazon search results will be saved in /amazon/data folder in a .csv format
+Amazon search results will be saved in `/amazon/data` folder in a .csv format
