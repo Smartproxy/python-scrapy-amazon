@@ -13,9 +13,9 @@ To get started with Scrapy you will first need to install it using methods provi
 
 # Authentication & Proxy setup
 
-### Once you have an active subscription you can find your credentials & proxy addresses in Dashboard > Residential > Proxy Setup
+Once you have an active subscription you can find your credentials & proxy addresses in **Dashboard > Residential > Proxy Setup**
 
-Navigate to settings.py in /amazon/amazon/ folder and modify the following lines to authenticate.
+Navigate to settings.py in `/amazon/amazon/` folder and modify the following lines to authenticate.
 
 ```
 SMARTPROXY_USER = 'SPusername' ## Smartproxy Username (Sub-user)
