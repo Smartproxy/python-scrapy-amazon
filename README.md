@@ -6,7 +6,7 @@
 [<img src="https://i.ibb.co/S6ytt21/github-banner.png">](https://dashboard.smartproxy.com/register?coupon=SMARTHUB20&utm_source=github&utm_medium=referral&utm_campaign=repository&utm_content=banner)
 
 # Python Scrapy Amazon Scraper
-[Scrape Amazon](https://smartproxy.com/scraping/amazon) product listings utilising scrapy &amp; residential proxies
+Scrape Amazon product listings utilising scrapy &amp; residential proxies
 
 # Prerequisites
 To get started with Scrapy you will first need to install it using methods provided in their documentation. [Check here for more information](https://docs.scrapy.org/en/latest/intro/install.html)
